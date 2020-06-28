@@ -44,7 +44,7 @@ git clone https://github.com/TiantianWang/ICCV17_SRM.git
 - **代码地址** ：[链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/TiantianWang/ICCV17_SRM 
 - **方法简称** ：SRM
 - **方法方向** ：显著性检测
-- **快速获取**
+- **快速获取** ：
 ```powershell
 git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 ```
