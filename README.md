@@ -24,45 +24,31 @@
 #### 曾凡晨
 - **论文名字** ：Skeleton-Based Action Recognition with Directed Graph Neural Networks；
 - **论文来源** ：2019CVPR；
-- **代码地址** ：[连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch
-- **方法简称** ：DGNN
-- **方法方向** ：行为骨骼识别
-- **快速获取**
+- **代码地址** ：[连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch ；
+- **方法简称** ：DGNN ；
+- **方法方向** ：行为骨骼识别 ；
+- **快速获取** ：
 ```powershell
 git clone https://github.com/TiantianWang/ICCV17_SRM.git
 ```
+
+| 方法介绍 |
+| :-------- |
+| 在这项工作中，我们根据人体关节和骨骼之间的运动相关性，将骨骼数据表示为有向无环图 (DAG)。设计了一种新的有向图神经网络，用于提取关节、骨骼及其相互关系的信息，并根据提取的特征进行预测。另外，为了更好地适应动作识别任务，在训练过程的基础上，对图的拓扑结构进行了自适应(Adaptive)，使其得到了显著的改进。在双流框架下，利用骨架序列的运动信息，结合空间信息，进一步提高性能。|
+
+
 
 #### 吕祥杰
 - **论文名字** ：A Stagewise Refinement Model for Detecting Salient Objects in Images；
 - **论文来源** ：2017ICCV；
 - **代码地址** ：[链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/TiantianWang/ICCV17_SRM 
-- **方法简称** ：DGNN
+- **方法简称** ：SRM
 - **方法方向** ：显著性检测
 - **快速获取**
 ```powershell
 git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
 ```
 
-#### 2020年6月23号
-
-#### 王鑫鑫
-- **论文名字** ：Skeleton-Based Action Recognition with Directed Graph Neural Networks；
-- **论文来源** ：2019CVPR；
-- **代码地址** ：[连接](https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch) 或者 https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch
-- **方法简称** ：DGNN
-- **方法方向** ：行为骨骼识别
-- **快速获取**
-```powershell
-git clone https://github.com/TiantianWang/ICCV17_SRM.git
-```
-
-#### 苏志翔
-- **论文名字** ：A Stagewise Refinement Model for Detecting Salient Objects in Images；
-- **论文来源** ：2017ICCV；
-- **代码地址** ：[链接](https://github.com/TiantianWang/ICCV17_SRM) 或者 https://github.com/TiantianWang/ICCV17_SRM 
-- **方法简称** ：DGNN
-- **方法方向** ：显著性检测
-- **快速获取**
-```powershell
-git clone https://github.com/kenziyuliu/Unofficial-DGNN-PyTorch.git
-```
+| 方法介绍 |
+| :-------- |
+| 深度卷积神经网络(CNNs)已经成功地应用于计算机视觉中的各种问题，包括显著目标检测。为了准确地检测和分割显著性目标，需要同时提取和结合高级语义特征和低级精细细节。这对CNNs来说是一个挑战，因为多次的子采样操作，如pooling和convolution，会导致初始图像分辨率明显降低，导致空间细节的丢失和更精细的结构。为了解决这一问题，我们提出了一种新的金字塔pooling模块和多阶段显著性检测细化机制来增强前馈神经网络。首先，利用我们的深度馈向网络生成一个粗略的预测图。 |
